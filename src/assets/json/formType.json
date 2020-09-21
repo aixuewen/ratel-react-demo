@@ -1,0 +1,467 @@
+{
+  "commom": {
+    "cattr": [
+      "label",
+      "placeholder",
+      "required",
+      "defaultValue",
+      "rowCol"
+    ],
+    "tattr": [
+      "serverData",
+      "options",
+      "tagClosable",
+      "size"
+    ],
+    "sattr": [
+      "fontFamily",
+      "fontSize",
+      "opacity",
+      "padding",
+      "margin",
+      "height"
+    ]
+  },
+  "layout": {
+    "cattr": [
+    ],
+    "tattr": [
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "divider": {
+    "cattr": [
+      {"key": "label"}
+    ],
+    "tattr": [
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "file": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "filetype"},
+      {"key": "filesize"},
+      {"key": "required"}
+    ],
+    "tattr": [
+      {"key": "size"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "imageFile": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "filetype"},
+      {"key": "filesize"},
+      {"key": "required"}
+    ],
+    "tattr": [
+      {"key": "size"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "input": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"}, 
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "textArea": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "rowSize"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "monthPicker": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValueMonth"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+
+
+"weekPicker": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValueWeek"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "datePicker": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValueDate"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "timePicker": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValueTime"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "dateRangePicker": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "timeRangePicker": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "select": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"},
+      {"key": "serverData"},
+      {"key": "options"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "multipleSelect": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"},
+      {"key": "serverData"},
+      {"key": "options"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "checkbox": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"},
+      {"key": "serverData"},
+      {"key": "options"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "radio": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"},
+      {"key": "serverData"},
+      {"key": "options"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "checkboxList": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"},
+      {"key": "serverData"},
+      {"key": "options"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "radioList": {
+    "cattr": [
+      {"key": "label"},
+      {"key": "placeholder"},
+      {"key": "defaultValue"},
+      {"key": "required"} 
+    ],
+    "tattr": [
+      {"key": "size"},
+      {"key": "isTableFiled"},
+      {"key": "filedSort"},
+      {"key": "isQuery"},
+      {"key": "isQuerySort"},
+      {"key": "serverData"},
+      {"key": "options"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "label": {
+    "cattr": [
+      {
+        "key": "label"
+      }
+    ],
+    "tattr": [
+      {
+        "key": "options"
+      }
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "editTable": {
+    "cattr": [
+      {"key": "label"} 
+    ],
+    "tattr": [
+      {"key": "table"}
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "tp": {
+    "cattr": [
+    ],
+    "tattr": [
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  },
+  "html": {
+    "cattr": [
+    ],
+    "tattr": [
+    ],
+    "sattr": [
+      {"key": "fontFamily"},
+      {"key": "fontSize"},
+      {"key": "opacity"}, {"key": "color"},
+      {"key": "padding"},
+      {"key": "margin"}
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+.dragContent {
+  min-height: 45px;
+  padding: 3px 5px;
+  // border:1px dashed lightblue;
+  .dragItem {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+  }
+
+  .dragItem:hover {
+    border: 1px dashed red;
+  }
+
+  .dragItem :last-child {
+    margin-left: 15px;
+  }
+
+  .ant-form-item {
+    margin-bottom: 0px;
+    //display: flex;
+  }
+
+}
+
+.upload-dragger {
+    display: none;
+}
+
+// .dragContent:hover{
+//     border:1px dashed red;
+// }
+.drag-active {
+  height: 40px;
+  padding: 3px 5px;
+  // border:1px dashed red;
+}
+
+.dragTitle {
+  width: 180px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+.selector {
+  cursor: move;
+  cursor: -webkit-grabbing;
+}
+
+.ant-form-item-label {
+  label {
+    font-size: inherit !important;
+    color: inherit !important;
+  }
+}

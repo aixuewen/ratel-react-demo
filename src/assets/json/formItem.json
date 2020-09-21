@@ -1,0 +1,241 @@
+[
+  {
+    "id": "layouts",
+    "name": "布局元素",
+    "children": [
+      {
+        "title": "栅格布局",
+        "key": "lgbj",
+        "type": "layout",
+        "icon": "icon-charuhang",
+        "children": [
+          {
+            "title": "layout",
+            "key": "layout"
+          }
+        ]
+      },
+      {
+        "title": "分割线",
+        "key": "divider",
+        "type": "divider",
+        "icon": "iconicon-21",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "forms",
+    "name": "表单元素",
+    "children": [
+      {
+        "title": "单行文本",
+        "key": "input",
+        "type": "input",
+        "icon": "icondanhangshurukuang",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "多行文本",
+        "key": "textArea",
+        "type": "textArea",
+        "icon": "iconduohangshurukuang",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "月份选择",
+        "key": "monthPicker",
+        "type": "monthPicker",
+        "icon": "icon-riqi",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "周选择",
+        "key": "weekPicker",
+        "type": "weekPicker",
+        "icon": "icon-riqi",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "日期选择",
+        "key": "datePicker",
+        "type": "datePicker",
+        "icon": "icon-riqi",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "时间选择",
+        "key": "timePicker",
+        "type": "timePicker",
+        "icon": "iconicon-",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "日期区间",
+        "key": "dateRangePicker",
+        "type": "dateRangePicker",
+        "icon": "icon-riqi",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "时间区间",
+        "key": "timeRangePicker",
+        "type": "timeRangePicker",
+        "icon": "iconicon-",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "下拉单选择",
+        "key": "select",
+        "type": "select",
+        "icon": "iconxiala1",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "下拉多选择",
+        "key": "multipleSelect",
+        "type": "multipleSelect",
+        "icon": "icon-duojixiala",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "复选框",
+        "key": "checkbox",
+        "type": "checkbox",
+        "icon": "iconduoxuankuang",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "单选框",
+        "key": "radio",
+        "type": "radio",
+        "icon": "iconicon-20",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },{
+        "title": "复选框列表",
+        "key": "checkboxList",
+        "type": "checkboxList",
+        "icon": "iconduoxuankuang",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "单选框列表",
+        "key": "radioList",
+        "type": "radioList",
+        "icon": "iconicon-20",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "标签",
+        "key": "label",
+        "type": "label",
+        "icon": "iconicon-19",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "文件上传",
+        "key": "file",
+        "type": "file",
+        "icon": "icon-dakai",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      },
+      {
+        "title": "图片上传",
+        "key": "imageFile",
+        "type": "imageFile",
+        "icon": "icon-dakai",
+        "children": [
+          {
+            "title": "input",
+            "key": "input"
+          }
+        ]
+      }
+    ]
+  }
+]

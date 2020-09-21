@@ -1,0 +1,141 @@
+@import '~antd/lib/style/themes/default.less';
+
+
+.clearfix() {
+  zoom: 1;
+  &::before,
+  &::after {
+    display: table;
+    content: ' ';
+  }
+  &::after {
+    clear: both;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+  }
+}
+
+.pageHeaderContent {
+  display: flex;
+
+  .avatar {
+    flex: 0 1 72px;
+    margin-bottom: 8px;
+
+    & > span {
+      display: block;
+      width: 72px;
+      height: 72px;
+      border-radius: 72px;
+    }
+  }
+
+  .content {
+    position: relative;
+    top: 4px;
+    flex: 1 1 auto;
+    margin-left: 24px;
+    color: @text-color-secondary;
+    line-height: 22px;
+
+    .contentTitle {
+      margin-bottom: 12px;
+      color: @heading-color;
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 28px;
+    }
+  }
+}
+
+.extraContent {
+  .clearfix();
+
+  float: right;
+  white-space: nowrap;
+
+  .statItem {
+    position: relative;
+    display: inline-block;
+    padding: 0 32px;
+
+    > p:first-child {
+      margin-bottom: 4px;
+      color: @text-color-secondary;
+      font-size: @font-size-base;
+      line-height: 22px;
+    }
+
+    > p {
+      margin: 0;
+      color: @heading-color;
+      font-size: 24px;
+      line-height: 38px;
+
+      > span {
+        color: @text-color-secondary;
+        font-size: 20px;
+      }
+    }
+
+    &::after {
+      position: absolute;
+      top: 8px;
+      right: 0;
+      width: 1px;
+      height: 40px;
+      background-color: @border-color-split;
+      content: '';
+    }
+
+    &:last-child {
+      padding-right: 0;
+
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+
+.ant-page-header-heading {
+  margin-top: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.ant-page-header-heading-left {
+  display: flex;
+  align-items: center;
+  margin: 4px 0;
+  overflow: hidden;
+}
+
+.ant-page-header-heading-title {
+  margin-right: 12px;
+  margin-bottom: 0;
+  color: rgba(0, 0, 0, .85);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 32px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.ant-page-header-content {
+  padding-top: 12px;
+}
+
+.ant-pro-page-container-content {
+  flex: auto;
+}
+
+.ant-pro-page-container-extraContent {
+  min-width: 242px;
+  margin-left: 88px;
+  text-align: right;
+}
+

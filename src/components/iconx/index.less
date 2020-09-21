@@ -1,0 +1,12 @@
+/* 引入 icon class 文件 */
+/* 关于这个引用路径，有一个坑，ant.design 我用的dva，默认资源路径为 /public 所以这个引用的实际目录是  /public/fonts/iconfont/iconfont.css */
+
+/* 设置使用字体的优先级 anticon-user 高 */
+:global(.anticon) {  /* :global() 是为了覆盖全局class .anticon 的样式 */
+  &:before {
+    font-family: "anticon", "anticon-user" !important;
+    /* 默认样式是这样
+        font-family: "anticon" !important;
+    */
+  }
+}
